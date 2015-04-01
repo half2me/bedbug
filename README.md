@@ -1,2 +1,2 @@
-# bedbug
-A PoC tool for infecting Embedded devices
+# BedBug
+A PoC tool for infecting Embedded Devices
