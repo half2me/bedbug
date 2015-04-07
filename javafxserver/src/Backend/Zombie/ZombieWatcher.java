@@ -16,7 +16,9 @@ public class ZombieWatcher implements Runnable{
     public void run() {
         while(true){
             try {
-                this.zombie.GetMessage(in.readLine());
+		String tmp = in.readLine();
+		if(tmp == null) return;
+                this.zombie.GetMessage(tmp);
             } catch (IOException e) {}
         }
     }
